@@ -9,7 +9,7 @@
  * splitFirstAndLastNames('John Smith') => ['John', 'Smith']
  */
 
-const splitFirstAndLastNames = name => str.split(' ');
+const splitFirstAndLastNames = name => name.split(' ');
 
 
 /** =========================

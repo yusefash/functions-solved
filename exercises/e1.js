@@ -14,7 +14,7 @@
 */
 
 function logMessage() {
-  return ('Hello, World')
+  console.log('Hello, World!')
 }
 
 
@@ -32,7 +32,7 @@ function logMessage() {
 */
 
 function logMyMessage(message) {
-  return message('My message')
+  console.log(message)
 }
 
 
@@ -49,7 +49,7 @@ function logMyMessage(message) {
 */
 
 function logMessageWithMyName(name) {
-  return ('My name is', name)
+  console.log('My name is ' + name + '!')
 }
 
 
@@ -67,7 +67,7 @@ function logMessageWithMyName(name) {
 */
 
 function logMyInfo(name, age) {
-  return ('My name is', name, '.', 'I am ', age, 'years old!' )
+  console.log('My name is ' + name + '.' + ' I am ' + age + ' years old!' )
 }
 
 
